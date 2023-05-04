@@ -1,98 +1,61 @@
 <!DOCTYPE html>
-2
-<html lang="pt br">
-3
+<html lang="pt-br">
   <head>
-4
     <meta charset="UTF-8" />
-5
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-6
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-7
-    <title>Cadastro</title>
-8
-    <link rel="stylesheet" href="main.css" />
-9
+    <link rel="stylesheet" href="./main.css" />
+    <title>Módulo 10 - Máscara JQuery</title>
   </head>
-10
   <body>
-11
-    <header>
-12
-      <h1>CADASTRO</h1>
-13
-    </header>
-14
-​
-15
-    <form>
-16
+    <div class="alinhamento">
       <div class="container">
-17
-        <div class="form-campo">
-18
-          <label for="nome">Nome Completo:</label>
-19
-          <input type="text" id="nome" />
-20
-        </div>
-21
-        <div class="form-campo">
-22
-          <label for="email">Email:</label>
-23
-          <input type="email" id="email" />
-24
-        </div>
-25
-        <div class="form-campo">
-26
-          <label for="telefone">Telefone:</label>
-27
-          <input type="tel" id="telefone" placeholder="(  )" />
-28
-        </div>
-29
-        <div class="form-campo">
-30
-          <label for="cpf">CPF:</label>
-31
-          <input type="text" id="cpf" />
-32
-        </div>
-33
-        <div class="form-campo">
-34
-          <label for="endereco">Endereço Completo:</label>
-35
-          <input type="text" id="endereco" />
-36
-        </div>
-37
-        <div class="form-campo">
-38
-          <label for="cep">Cep:</label>
-39
-          <input type="text" id="cep" />
-40
-        </div>
-41
-        <button type="submit">Enviar</button>
-42
+        <header>
+          <h1>CADASTRO</h1>
+        </header>
+
+        <form>
+          <div>
+            <label for="nomeCompleto">Nome Completo</label>
+            <input type="text" name="nomeCompleto" id="nomeCompleto" />
+          </div>
+          <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone" />
+          </div>
+          <div>
+            <label for="cpf">CPF</label>
+            <input name="cpf" id="cpf" />
+          </div>
+          <div>
+            <label for="endereco">Endereço </label>
+            <input type="text" name="endereco" id="endereco" />
+          </div>
+          <div>
+            <label for="cep">CEP</label>
+            <input name="cep" id="cep" />
+          </div>
+          <button type="submit">Cadastrar</button>
+        </form>
       </div>
-43
-    </form>
-44
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-45
+
+      <footer>&copy; vono.dev</footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
     <script src="./js/jquery.mask.min.js"></script>
-46
-​
-47
-    <script src="./js/main.js"></script>
-48
+    <script src="./main.js"></script>
   </body>
-49
 </html>
-50
