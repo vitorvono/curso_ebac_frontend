@@ -1,159 +1,92 @@
 * {
-2
-2
-3
-  font-family: "Courier New", Courier, monospace;
-4
-3
-5
   margin: 0;
-6
-4
-7
   padding: 0;
-8
-5
-9
   box-sizing: border-box;
-10
-6
-11
+  font-family: "Roboto", sans-serif;
 }
-12
-7
-13
-•
-14
-8
-15
-.container {
-16
-9
-17
-  display: block;
-18
-10
-19
-  align-items: center;
-20
-11
-21
-  margin-bottom: 40px;
-22
-12
-23
-  justify-content: center;
-24
-13
-25
-  margin-top: 20px;
-26
-14
-27
-  max-width: 500px;
-28
-15
-29
-  width: 50%;
-30
-16
-31
-  margin: 0 auto;
-32
-17
-33
+
+html {
+  min-height: 100vh;
+  background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
 }
-34
-18
-35
-•
-36
-19
-37
-body {
-38
-20
-39
-  background-color: #3c027e;
-40
-21
-41
-  padding-top: 100px;
-42
-22
-43
-}
-44
-23
-45
-•
-46
-24
-47
-header {
-48
-25
-49
+
+.alinhamento {
+  min-height: 100vh;
   display: flex;
-50
-26
-51
-  align-items: center;
-52
-27
-53
-  margin-bottom: 40px;
-54
-28
-55
   justify-content: center;
-56
-29
-57
-  margin-top: 120px;
-58
-30
-59
+  align-items: center;
+  padding: 0 20px;
+  flex-direction: column;
 }
-60
-31
-61
-•
-62
-32
-63
-header h1 {
-64
-33
-65
-  color: #ffff;
-66
-34
-67
+
+.container {
+  background-color: #fff;
+  max-width: 960px;
+  width: 100%;
+  padding: 0 20px;
+  min-height: 600px;
+  padding: 50px 130px 30px;
+  border-radius: 20px;
 }
-68
-35
-69
-.form-campo {
-70
-36
-71
-  margin-bottom: 16px;
-72
-37
-73
+
+h1 {
+  text-align: center;
+  padding-bottom: 10px;
 }
-74
-38
-75
-•
-76
-39
-77
-.form-campo label {
-78
-40
-79
+
+div label {
   font-weight: bold;
-80
-41
+  display: block;
+  margin-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  color: #333;
+}
+
+div input,
+button {
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  padding: 18px 22px;
+  border-radius: 50px;
+  border: none;
+}
+
+input {
+  background-color: #e6e6e6;
+}
+
+div input::placeholder {
+  color: #999;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  margin-top: 30px;
+  background-color: rgb(0, 184, 0);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  transition: background-color 0.3s;
+}
+
+footer {
+  padding-top: 10px;
+}
+
+label.error {
+  color: red;
+}
