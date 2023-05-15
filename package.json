@@ -1,0 +1,26 @@
+{
+  "name": "21",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "browser-sync": "^2.29.1",
+    "cssnano": "^6.0.1",
+    "gulp-cli": "^2.3.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-terser": "^2.1.0"
+  },
+  "description": ""
+}

@@ -1,0 +1,13 @@
+@use 'variables';
+@use 'banner';
+@use 'header';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: variables.$font;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+}
