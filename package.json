@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TRIbuto2020/curso_ebac_frontend.git"
+    "url": "git+https://github.com/vitorvono/curso_ebac_frontend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TRIbuto2020/curso_ebac_frontend/issues"
+    "url": "https://github.com/vitorvono/curso_ebac_frontend/issues"
   },
-  "homepage": "https://github.com/TRIbuto2020/curso_ebac_frontend#readme",
+  "homepage": "https://github.com/vitorvono/curso_ebac_frontend#readme",
   "devDependencies": {
     "cypress": "^12.10.0"
   }
